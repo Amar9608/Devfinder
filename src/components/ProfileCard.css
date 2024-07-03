@@ -1,0 +1,66 @@
+/* src/components/ProfileCard.css */
+.profile-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .profile-card.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .profile-card.dark {
+    background-color: #1d2a4a;
+    color: white;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .links p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links p a {
+    margin-left: 5px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .links p a:hover {
+    text-decoration: underline;
+  }
+  

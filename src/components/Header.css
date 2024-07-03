@@ -1,0 +1,17 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .theme-switcher {
+    display: flex;
+    align-items: center;
+  }
+  
+  .theme-switcher span {
+    margin-right: 10px;
+  }
+  
